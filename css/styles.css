@@ -1,0 +1,9 @@
+@media(min-width: 320px){
+	.latest-articles__article-card{
+		background: #ccc;
+		width:100%;
+	}
+	.latest-articles__body{
+		padding:10px;
+	}
+}
