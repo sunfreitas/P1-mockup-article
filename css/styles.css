@@ -1,9 +1,40 @@
 @media(min-width: 320px){
+
 	.latest-articles__article-card{
-		background: #ccc;
 		width:100%;
+		box-shadow: 0px 1px 5px rgb(113, 113, 113);
 	}
+
 	.latest-articles__body{
 		padding:10px;
+		color: rgba(0, 0, 0, 0.74);
+	}
+
+	.latest-articles__heading{
+	    position: absolute;
+	    padding: 10px;
+	    color: rgb(255, 255, 255);
+	}
+
+	.latest-articles__title{
+		font-size:2em;
+		margin: 10px 0 20px;
+	}
+
+	.latest-articles__meta{
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	.latest-articles__article-card__footer{
+
+	}
+
+	.ico{
+		margin-left:15px;
+		width:24px;
+		height: 24px;
+		display: inline-block;
+		color:rgba(0, 0, 0, .74);
 	}
 }
